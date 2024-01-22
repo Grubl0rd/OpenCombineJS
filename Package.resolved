@@ -1,25 +1,23 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "JavaScriptKit",
-        "repositoryURL": "https://github.com/swiftwasm/JavaScriptKit.git",
-        "state": {
-          "branch": null,
-          "revision": "2011cc0422eb820c36d7cc275e0992ec5ca9ab34",
-          "version": "0.13.0"
-        }
-      },
-      {
-        "package": "OpenCombine",
-        "repositoryURL": "https://github.com/OpenCombine/OpenCombine.git",
-        "state": {
-          "branch": null,
-          "revision": "9cf67e363738dbab61b47fb5eaed78d3db31e5ee",
-          "version": "0.13.0"
-        }
+  "pins" : [
+    {
+      "identity" : "javascriptkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Grubl0rd/JavaScriptKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8e79a170d7c394cc539a87f64186f56def25ddce"
       }
-    ]
-  },
-  "version": 1
+    },
+    {
+      "identity" : "opencombine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/OpenCombine/OpenCombine.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "1c6f02c7ed8140c0ba7a783aaddb6e0685a0037b"
+      }
+    }
+  ],
+  "version" : 2
 }
